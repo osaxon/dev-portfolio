@@ -1,1 +1,16 @@
-<h1>Home</h1>
+<div class="min-h-screen bg-gray-50">
+
+    <div class="p-4 grid grid-cols-1 md:grid-cols-3 gap-2">
+
+        {{#each plainData as |project|}}
+    
+        <article class="border rounded h-60 opacity-70" style="background-image: url({{img_url}}); background-size: cover;">
+            <h2>{{title}}</h2>
+        </article>
+        {{/each}}
+
+    </div>
+
+
+
+</div>
